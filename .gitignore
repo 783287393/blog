@@ -1,0 +1,12 @@
+# Ghost runtime运行目录
+runtime/content/data/*
+runtime/content/logs/*
+runtime/content/keys/*
+runtime/content/uploads/*
+node_modules/
+*.env
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
