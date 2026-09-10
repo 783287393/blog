@@ -1,8 +1,9 @@
-# Ghost runtime运行目录
-runtime/content/data/*
-runtime/content/logs/*
-runtime/content/keys/*
-runtime/content/uploads/*
+# Ghost runtime运行目录（数据库、日志、上传、密钥、依赖整体排除）
+runtime/
+
+# 手动协作模式的辅助输出（不入库）
+_agent_output/
+
 node_modules/
 *.env
 *.log
