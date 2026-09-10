@@ -11,3 +11,7 @@ node_modules/
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# Ghost 导出/导入文件（含 private key 等敏感数据，不提交）
+scripts/*.json
+docs/ghost-import.json
