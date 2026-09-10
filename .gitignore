@@ -15,3 +15,10 @@ Thumbs.db
 # Ghost 导出/导入文件（含 private key 等敏感数据，不提交）
 scripts/*.json
 docs/ghost-import.json
+
+# AI 辅助脚本（实验过程中生成，已清理）
+scripts/*.ps1
+scripts/*.bat
+ppt-work/*.txt
+ppt-work/*.py
+git-status.txt
